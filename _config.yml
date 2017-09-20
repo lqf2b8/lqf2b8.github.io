@@ -1,0 +1,21 @@
+# Site settings
+title: Finance Programmer
+header-img: img/home-bg.png
+email: lqf2b8@gmail.com
+copyright_name: lqf2b8
+description: > # this means to ignore newlines until "baseurl:"
+  A Journey From the World of Finance to the World of Programming
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: lqf2b8
+github_username:  lqf2b8
+learn_profile: lqf2b8
+email_username: lqf2b8@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
